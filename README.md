@@ -4,7 +4,7 @@
 
 2. In the project directory, you can run: `npx cypress open`
 
-Runs the test in the cypress brwoser.\
+Runs the test in the cypress browser.\
 Open E2E test and start the process.
 There are 3 test cases with multiple assertions.
 Test cases were designed using fixtures and cypress Command.add.

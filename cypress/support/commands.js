@@ -22,10 +22,8 @@ Cypress.Commands.add('flightSearch', (from, to) => {
 Cypress.Commands.add('confirmDestinations', (from, to) => {
     cy.get('.css-2izuov > :nth-child(1)')
         .should('be.visible');
-
     cy.get('[data-testid="tripDetails-title-TitleText"] > :nth-child(1)')
-        .should('contain', from)
-    
+        .should('contain', from);
     cy.get('[data-testid="tripDetails-title-TitleText"] > :nth-child(3)')
         .should('contain', to);
 });

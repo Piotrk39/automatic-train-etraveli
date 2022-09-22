@@ -1,0 +1,17 @@
+{
+  "name": "etraveli",
+  "version": "1.0.0",
+  "description": "Cypress Test Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piotr Krajewski",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}

@@ -1,5 +1,3 @@
 {
-  "from": "Athens",
-  "to": "Warsaw",
-  "url": "https://www.flightnetwork.com/"
+  "baseURL": "https://www.flightnetwork.com/"
 }
